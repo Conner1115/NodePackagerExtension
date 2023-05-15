@@ -2,21 +2,16 @@
   "name": "React Replit Extension Starter",
   "description": "A starter template for a Replit Extension built with React",
   "version": "0",
-  "tags": [""],
-  "icon": "",
-  "supportEmail": "",
-  "website": "",
-  "longDescription": "",
-  "coverImages": [
+  "tools": [
+
     {
-      "url": "",
-      "label": ""
+      name: "Example Extension",
+      icon: "/favicon.svg",
+      handler: "/"
     }
+
   ],
-  "fileHandlers": [
-    {
-      "glob": "",
-      "handler": ""
-    }
-  ]
+  icon: "/favicon.svg",
+  coverImages: null,
+  // For more info: https://docs.replit.com/extensions/api/manifest
 }
