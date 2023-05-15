@@ -9,7 +9,7 @@ export const tokens = {
 
   accentPrimaryDimmest: `var(--accent-primary-dimmest)`,
   accentPrimaryDimmer: `var(--accent-primary-dimmer)`,
-  accentPrimaryDefalut: `var(--accent-primary-default)`,
+  accentPrimaryDefault: `var(--accent-primary-default)`,
   accentPrimaryStronger: `var(--accent-primary-stronger)`,
   accentPrimaryStrongest: `var(--accent-primary-strongest)`,
 
@@ -203,7 +203,6 @@ export const rcss = {
 
     switch (level) {
       case "higher":
-        low = tokens.backgroundDefault;
         high = tokens.backgroundHighest;
         break;
     }
@@ -219,7 +218,6 @@ export const rcss = {
 
     switch (level) {
       case "higher":
-        low = tokens.backgroundDefault;
         high = tokens.backgroundHighest;
         break;
     }

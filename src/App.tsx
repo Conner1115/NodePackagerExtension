@@ -1,13 +1,12 @@
-import { DirectoryChildNode } from '@replit/extensions';
-import { useReplit } from '@replit/extensions-react';
-import { useEffect, useState } from 'react';
+import Header from './components/Header';
+import { rcss } from './lib/tokens';
 import './App.css'
 
 function App() {
   
-  return <div css={{
-    padding: 16
-  }}>asdf</div>
+  return <div css={[rcss.flex.column, rcss.p(8), rcss.colWithGap(8)]}>
+    <Header/>
+  </div>
 }
 
 export default App;
