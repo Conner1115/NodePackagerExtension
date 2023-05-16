@@ -2,9 +2,9 @@
 
 This is a Replit Extension Starter template written in React. It includes a few sample Extensions API calls in `src/App.jsx`.
 
- - [Documentation](https://docs.replit.com/extensions)
- - [React Reference](https://docs.replit.com/extensions/react/introduction)
- - [API Reference](https://docs.replit.com/extensions/category/api-reference)
+- [Documentation](https://docs.replit.com/extensions)
+- [React Reference](https://docs.replit.com/extensions/react/introduction)
+- [API Reference](https://docs.replit.com/extensions/category/api-reference)
 
 ## Getting Started
 

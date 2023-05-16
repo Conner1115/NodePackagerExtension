@@ -4,7 +4,7 @@ entrypoint = "src/App.jsx"
 hidden = [".config", ".git", ".gitignore"]
 
 [nix]
-channel = "stable-21_11"
+channel = "stable-22_11"
 
 [env]
 PATH = "/home/runner/$REPL_SLUG/.config/npm/node_global/bin:/home/runner/$REPL_SLUG/node_modules/.bin"
@@ -32,3 +32,4 @@ start = "typescript-language-server --stdio"
 isExtension = true
 buildCommand = "npm run build"
 outputDirectory = "./dist"
+extensionID = "767e16f7-593d-4006-9917-f5023abdbe3c"

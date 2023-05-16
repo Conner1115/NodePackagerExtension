@@ -20,7 +20,7 @@ export const tokens = {
   foregroundDefault: `var(--foreground-default)`,
   foregroundDimmer: `var(--foreground-dimmer)`,
   foregroundDimmest: `var(--foreground-dimmest)`,
-}
+};
 
 export type Space =
   | 0
@@ -193,11 +193,16 @@ export const rcss = {
       backgroundImage: `linear-gradient(${angle}deg, ${colors.join(", ")})`,
     }),
 
-  boxShadow: (boxShadow: string) => css({
-    boxShadow
-  }),
+  boxShadow: (boxShadow: string) =>
+    css({
+      boxShadow,
+    }),
 
-  neumorph: (distance: Space, blur: Space, level: "default" | "higher" = "default") => {
+  neumorph: (
+    distance: Space,
+    blur: Space,
+    level: "default" | "higher" = "default"
+  ) => {
     let low = tokens.backgroundRoot;
     let high = tokens.backgroundHigher;
 
@@ -208,11 +213,16 @@ export const rcss = {
     }
 
     return css({
-      boxShadow: `${distance}px ${distance}px ${blur}px ${low}, -${distance}px -${distance}px ${blur}px ${high}` as string
-    })
+      boxShadow:
+        `${distance}px ${distance}px ${blur}px ${low}, -${distance}px -${distance}px ${blur}px ${high}` as string,
+    });
   },
 
-  neumorphInset: (distance: Space, blur: Space, level: "default" | "higher" = "default") => {
+  neumorphInset: (
+    distance: Space,
+    blur: Space,
+    level: "default" | "higher" = "default"
+  ) => {
     let low = tokens.backgroundRoot;
     let high = tokens.backgroundHigher;
 
@@ -223,7 +233,8 @@ export const rcss = {
     }
 
     return css({
-      boxShadow: `inset ${distance}px ${distance}px ${blur}px ${low}, inset -${distance}px -${distance}px ${blur}px ${high}` as string
-    })
-  }
+      boxShadow:
+        `inset ${distance}px ${distance}px ${blur}px ${low}, inset -${distance}px -${distance}px ${blur}px ${high}` as string,
+    });
+  },
 };

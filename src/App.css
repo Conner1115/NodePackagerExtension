@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono&display=swap");
 
 :root {
   --background-root: #0e1525;
@@ -19,7 +19,7 @@
   --accent-primary-default: #0079f2;
   --accent-primary-stronger: #57abff;
   --accent-primary-strongest: #b2d9ff;
-  --font-family-default: 'IBM Plex Sans', sans-serif;
+  --font-family-default: "IBM Plex Sans", sans-serif;
 }
 
 * {
@@ -37,7 +37,7 @@ body {
   font-family: var(--font-family-default);
   color: var(--foreground-default);
   display: flex;
-  flexDirection: column;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
